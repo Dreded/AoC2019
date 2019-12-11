@@ -6,14 +6,14 @@ class SantaFuel():
     def PartOne(self):
         fuel = 0
         for mass in self.input:
-            fuel += int(mass/3-2)
+            fuel += mass//3-2
         return fuel
 
     def PartTwo(self):
         fuel = 0
         for mass in self.input:
-            while int(mass/3-2) > 0:
-                mass = int(mass/3-2)
+            while mass//3-2 > 0:
+                mass = mass//3-2
                 fuel += mass
         return fuel
 
