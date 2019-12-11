@@ -17,6 +17,6 @@ class SantaFuel():
                 fuel += mass
         return fuel
 
-answer = SantaFuel()
+answer = SantaFuel() # Test
 print("PartOne: {}".format(answer.PartOne()))
 print("PartTwo: {}".format(answer.PartTwo()))
